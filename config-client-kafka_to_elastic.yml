@@ -18,7 +18,7 @@ kafka-consumer-config:
   specific-avro-reader: true
   batch-listener: true
   auto-startup: false
-  concurrency-level: 3
+  concurrency-level: 2
   session-timeout-ms: 10000
   heartbeat-interval-ms: 3000
   max-poll-interval-ms: 300000
@@ -31,7 +31,7 @@ retry-config:
   initial-interval-ms: 1000
   max-interval-ms: 10000
   multiplier: 2.0
-  maxAttempts: 3
+  maxAttempts: 5
   sleep-time-ms: 2000
 
 elastic-config:
