@@ -49,7 +49,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres?currentSchema=public&binaryTransfer=true&reWriteBatchedInserts=true
     username: postgres
-    password: 
+    password: eno
     driver-class-name: org.postgresql.Driver
     platform: postgres
     schema: classpath:init-schema.sql
